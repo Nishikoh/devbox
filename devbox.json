@@ -62,7 +62,7 @@
         "devbox global push https://github.com/Nishikoh/devbox.git"
       ],
       "pull-config": [
-        "devbo global pull https://github.com/Nishikoh/devbox.git"
+        "devbox global pull https://github.com/Nishikoh/devbox.git"
       ],
       "update-zsh": [
         "eval \"$(devbox global shellenv --preserve-path-stack -r)\" && hash -r",
