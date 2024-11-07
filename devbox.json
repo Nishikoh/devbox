@@ -1,0 +1,76 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.6/.schema/devbox.schema.json",
+  "packages": [
+    "repgrep@latest",
+    "exa@latest",
+    "htop@latest",
+    "nushell@latest",
+    "diff-so-fancy@latest",
+    "dua@latest",
+    "pueue@latest",
+    "fcp@latest",
+    "difftastic@latest",
+    "zoxide@latest",
+    "ctop@latest",
+    "dust@latest",
+    "mcfly@latest",
+    "eza@latest",
+    "gh@latest",
+    "typos@latest",
+    "delta@latest",
+    "k9s@latest",
+    "git-lfs@latest",
+    "k6@latest",
+    "hadolint@latest",
+    "mise@latest",
+    "xc@latest",
+    "jq@latest",
+    "fzf@latest",
+    "sccache@latest",
+    "act@latest",
+    "peco@latest",
+    "grex@latest",
+    "protobuf@latest",
+    "actionlint@latest",
+    "mold@latest",
+    "bat@latest",
+    "fd@latest",
+    "hyperfine@latest",
+    "await@latest",
+    "starship@latest",
+    "topgrade@latest",
+    "jnv@latest",
+    "kubectl@latest",
+    "uv@latest",
+    "zsh@latest",
+    "zsh-completions@latest",
+    "curl@latest",
+    "wget@latest",
+    "git@latest",
+    "yq@latest",
+    "argc@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ],
+      "push-config": [
+        "devbox global push https://github.com/Nishikoh/devbox.git"
+      ],
+      "pull-config": [
+        "devbo global pull https://github.com/Nishikoh/devbox.git"
+      ],
+      "update-zsh": [
+        "eval \"$(devbox global shellenv --preserve-path-stack -r)\" && hash -r",
+        "eval \"$(devbox global shellenv)\""
+      ],
+      "echo": [
+        "echo hello world"
+      ]
+    }
+  }
+}
