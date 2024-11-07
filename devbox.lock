@@ -2157,6 +2157,54 @@
         }
       }
     },
+    "tldr@latest": {
+      "last_modified": "2024-10-22T11:15:56Z",
+      "resolved": "github:NixOS/nixpkgs/782740762fb281404740b6b7084d356c3dab1173#tldr",
+      "source": "devbox-search",
+      "version": "1.6.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/z101kljjjcmbpab1as4y0h9f9nkqvak6-tldr-1.6.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/z101kljjjcmbpab1as4y0h9f9nkqvak6-tldr-1.6.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/fad0hicsrbmzyspranf1fjfij9lv6gbz-tldr-1.6.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/fad0hicsrbmzyspranf1fjfij9lv6gbz-tldr-1.6.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/g64vdyhibhq72kiz49h2hr0787xn5f6n-tldr-1.6.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/g64vdyhibhq72kiz49h2hr0787xn5f6n-tldr-1.6.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/g41g10xb52m5lki94hn43jjjhmzkjc7n-tldr-1.6.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/g41g10xb52m5lki94hn43jjjhmzkjc7n-tldr-1.6.1"
+        }
+      }
+    },
     "topgrade@latest": {
       "last_modified": "2024-10-13T23:44:06Z",
       "resolved": "github:NixOS/nixpkgs/d4f247e89f6e10120f911e2e2d2254a050d0f732#topgrade",

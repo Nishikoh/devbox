@@ -48,7 +48,8 @@
     "wget@latest",
     "git@latest",
     "yq@latest",
-    "argc@latest"
+    "argc@latest",
+    "tldr@latest"
   ],
   "shell": {
     "init_hook": [
