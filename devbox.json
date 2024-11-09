@@ -1,7 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.6/.schema/devbox.schema.json",
   "packages": [
-    "repgrep@latest",
     "exa@latest",
     "htop@latest",
     "nushell@latest",
@@ -49,7 +48,11 @@
     "git@latest",
     "yq@latest",
     "argc@latest",
-    "tldr@latest"
+    "tldr@latest",
+    "vim@latest",
+    "ripgrep@latest",
+    "shfmt@latest",
+    "shellcheck@latest"
   ],
   "shell": {
     "init_hook": [
