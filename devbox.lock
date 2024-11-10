@@ -557,6 +557,54 @@
         }
       }
     },
+    "diskonaut@latest": {
+      "last_modified": "2024-11-03T14:18:04Z",
+      "resolved": "github:NixOS/nixpkgs/4ae2e647537bcdbb82265469442713d066675275#diskonaut",
+      "source": "devbox-search",
+      "version": "0.11.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zz33alrpvj6dklcl6gp154b2as519y7w-diskonaut-0.11.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zz33alrpvj6dklcl6gp154b2as519y7w-diskonaut-0.11.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1rlf6znzghbbrs0phcgmjvlfyl8d9nz6-diskonaut-0.11.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1rlf6znzghbbrs0phcgmjvlfyl8d9nz6-diskonaut-0.11.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/n31iccpcv64jf7zgfwgcsg3ayiynisin-diskonaut-0.11.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/n31iccpcv64jf7zgfwgcsg3ayiynisin-diskonaut-0.11.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7032n1vridn37vsd3dwljbz5ybks3wr7-diskonaut-0.11.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7032n1vridn37vsd3dwljbz5ybks3wr7-diskonaut-0.11.0"
+        }
+      }
+    },
     "dua@latest": {
       "last_modified": "2024-11-04T15:55:45Z",
       "resolved": "github:NixOS/nixpkgs/a61cd8ff1b45f760bdf142914d517e0ccd31ffed#dua",

@@ -52,7 +52,8 @@
     "ripgrep@latest",
     "shfmt@latest",
     "shellcheck@latest",
-    "lazydocker@latest"
+    "lazydocker@latest",
+    "diskonaut@latest"
   ],
   "shell": {
     "init_hook": [
