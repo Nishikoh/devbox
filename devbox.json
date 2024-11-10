@@ -1,7 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.6/.schema/devbox.schema.json",
   "packages": [
-    "exa@latest",
     "htop@latest",
     "nushell@latest",
     "diff-so-fancy@latest",
@@ -52,7 +51,8 @@
     "vim@latest",
     "ripgrep@latest",
     "shfmt@latest",
-    "shellcheck@latest"
+    "shellcheck@latest",
+    "lazydocker@latest"
   ],
   "shell": {
     "init_hook": [
