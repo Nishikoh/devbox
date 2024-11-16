@@ -53,7 +53,8 @@
     "shfmt@latest",
     "shellcheck@latest",
     "lazydocker@latest",
-    "diskonaut@latest"
+    "diskonaut@latest",
+    "tenv@latest"
   ],
   "shell": {
     "init_hook": [
