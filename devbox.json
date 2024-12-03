@@ -54,7 +54,8 @@
     "shellcheck@latest",
     "lazydocker@latest",
     "diskonaut@latest",
-    "tenv@latest"
+    "tenv@latest",
+    "fastfetch@latest"
   ],
   "shell": {
     "init_hook": [

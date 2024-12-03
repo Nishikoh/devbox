@@ -769,6 +769,74 @@
         }
       }
     },
+    "fastfetch@latest": {
+      "last_modified": "2024-11-28T07:51:56Z",
+      "resolved": "github:NixOS/nixpkgs/226216574ada4c3ecefcbbec41f39ce4655f78ef#fastfetch",
+      "source": "devbox-search",
+      "version": "2.30.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/g6i2vg8q8jhqmw1048xzqh1rpfwpzv1n-fastfetch-2.30.1",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/pgcfzgr3aqnmcpjar0dq2c257arvyvsw-fastfetch-2.30.1-man",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/g6i2vg8q8jhqmw1048xzqh1rpfwpzv1n-fastfetch-2.30.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/snq6l139zn66gcsz7arq5j7xffmvx3jd-fastfetch-2.30.1",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/m8jrbwn07j9dpcrs52y8gv9vg863ppfl-fastfetch-2.30.1-man",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/snq6l139zn66gcsz7arq5j7xffmvx3jd-fastfetch-2.30.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9y8nzwknnpw5r94vkdy0k40b5lg17y8s-fastfetch-2.30.1",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/gcca3xhjcq1pc1haw2n1i69mjqqmmxb8-fastfetch-2.30.1-man",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9y8nzwknnpw5r94vkdy0k40b5lg17y8s-fastfetch-2.30.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5ng0aqm1bryjcb5na64sk0ynpsi0f72r-fastfetch-2.30.1",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/s3lpbbvppkrk66dsc3g1k8agcwdgrj48-fastfetch-2.30.1-man",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/5ng0aqm1bryjcb5na64sk0ynpsi0f72r-fastfetch-2.30.1"
+        }
+      }
+    },
     "fcp@latest": {
       "last_modified": "2024-11-03T14:18:04Z",
       "resolved": "github:NixOS/nixpkgs/4ae2e647537bcdbb82265469442713d066675275#fcp",
