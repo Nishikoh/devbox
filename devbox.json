@@ -55,7 +55,8 @@
     "lazydocker@latest",
     "diskonaut@latest",
     "tenv@latest",
-    "fastfetch@latest"
+    "fastfetch@latest",
+    "mcfly-fzf@latest"
   ],
   "shell": {
     "init_hook": [
