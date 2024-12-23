@@ -1625,6 +1625,54 @@
         }
       }
     },
+    "kubeconform@latest": {
+      "last_modified": "2024-12-03T12:40:06Z",
+      "resolved": "github:NixOS/nixpkgs/566e53c2ad750c84f6d31f9ccb9d00f823165550#kubeconform",
+      "source": "devbox-search",
+      "version": "0.6.7",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xag19c4a95awi6jic8x7pgkhxkng0iv5-kubeconform-0.6.7",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/xag19c4a95awi6jic8x7pgkhxkng0iv5-kubeconform-0.6.7"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7kd7wsdhch5p4x7pzjz08i9mg4gyqd19-kubeconform-0.6.7",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7kd7wsdhch5p4x7pzjz08i9mg4gyqd19-kubeconform-0.6.7"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/n34f0azplxzhnl5hdybwlkdnq9asqvxq-kubeconform-0.6.7",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/n34f0azplxzhnl5hdybwlkdnq9asqvxq-kubeconform-0.6.7"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6np3qshnbmcb2l1vhglf05p3m8fab71b-kubeconform-0.6.7",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6np3qshnbmcb2l1vhglf05p3m8fab71b-kubeconform-0.6.7"
+        }
+      }
+    },
     "kubectl@latest": {
       "last_modified": "2024-11-03T14:18:04Z",
       "resolved": "github:NixOS/nixpkgs/4ae2e647537bcdbb82265469442713d066675275#kubectl",
@@ -1754,6 +1802,54 @@
             }
           ],
           "store_path": "/nix/store/028v87s0d3d7yhr05dq103fghlzz8fwz-lazydocker-0.23.3"
+        }
+      }
+    },
+    "lefthook@latest": {
+      "last_modified": "2024-12-11T16:51:25Z",
+      "resolved": "github:NixOS/nixpkgs/5a48e3c2e435e95103d56590188cfed7b70e108c#lefthook",
+      "source": "devbox-search",
+      "version": "1.9.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ng28g2qkvc7yw2v7wnnkcidgmmgnmvvk-lefthook-1.9.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ng28g2qkvc7yw2v7wnnkcidgmmgnmvvk-lefthook-1.9.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/brip4bhxrs2y36dljid8rm6wj2kpzx2r-lefthook-1.9.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/brip4bhxrs2y36dljid8rm6wj2kpzx2r-lefthook-1.9.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rhqcgw99vv27psi1hn8qcbwvz9x44acw-lefthook-1.9.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rhqcgw99vv27psi1hn8qcbwvz9x44acw-lefthook-1.9.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jpkzv2zvalya2i5fxkwxajgi82damdjg-lefthook-1.9.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/jpkzv2zvalya2i5fxkwxajgi82damdjg-lefthook-1.9.0"
         }
       }
     },
@@ -2434,6 +2530,102 @@
             }
           ],
           "store_path": "/nix/store/q2z28fyxm241k9znz4g7yqig1rx62qvz-starship-1.21.1"
+        }
+      }
+    },
+    "stern@latest": {
+      "last_modified": "2024-12-03T12:40:06Z",
+      "resolved": "github:NixOS/nixpkgs/566e53c2ad750c84f6d31f9ccb9d00f823165550#stern",
+      "source": "devbox-search",
+      "version": "1.31.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/n32mmxgw2idfs9n2jvfkzssgrvpaldq5-stern-1.31.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/n32mmxgw2idfs9n2jvfkzssgrvpaldq5-stern-1.31.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cxrh6ka5rlqa0hlvnx2bnymdxlvfg9yp-stern-1.31.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/cxrh6ka5rlqa0hlvnx2bnymdxlvfg9yp-stern-1.31.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ipf949cksj8hiby1wa41gfwrym97slzn-stern-1.31.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ipf949cksj8hiby1wa41gfwrym97slzn-stern-1.31.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/iz3mwp0p0sznh0vanaxbnsh3b3mjkdmf-stern-1.31.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/iz3mwp0p0sznh0vanaxbnsh3b3mjkdmf-stern-1.31.0"
+        }
+      }
+    },
+    "taplo@latest": {
+      "last_modified": "2024-12-03T12:40:06Z",
+      "resolved": "github:NixOS/nixpkgs/566e53c2ad750c84f6d31f9ccb9d00f823165550#taplo",
+      "source": "devbox-search",
+      "version": "0.9.3",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/m77q4sb62dhh4jdz6aya1qg34wl0a2ws-taplo-0.9.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/m77q4sb62dhh4jdz6aya1qg34wl0a2ws-taplo-0.9.3"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/97wx86684plvpgcxhdgh6n6asbxpqg94-taplo-0.9.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/97wx86684plvpgcxhdgh6n6asbxpqg94-taplo-0.9.3"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5zzqqc154vwqjyw8an5af64qsw92z71c-taplo-0.9.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/5zzqqc154vwqjyw8an5af64qsw92z71c-taplo-0.9.3"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/h55bbv6db9qcr2mnc2m3816kizkck50d-taplo-0.9.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/h55bbv6db9qcr2mnc2m3816kizkck50d-taplo-0.9.3"
         }
       }
     },

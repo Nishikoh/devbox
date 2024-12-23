@@ -56,7 +56,11 @@
     "diskonaut@latest",
     "tenv@latest",
     "fastfetch@latest",
-    "mcfly-fzf@latest"
+    "mcfly-fzf@latest",
+    "lefthook@latest",
+    "taplo@latest",
+    "kubeconform@latest",
+    "stern@latest"
   ],
   "shell": {
     "init_hook": [
