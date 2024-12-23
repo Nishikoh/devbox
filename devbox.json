@@ -39,7 +39,6 @@
     "topgrade@latest",
     "jnv@latest",
     "kubectl@latest",
-    "uv@latest",
     "zsh@latest",
     "zsh-completions@latest",
     "curl@latest",
