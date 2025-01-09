@@ -26,7 +26,6 @@
     "fzf@latest",
     "sccache@latest",
     "act@latest",
-    "peco@latest",
     "grex@latest",
     "protobuf@latest",
     "actionlint@latest",
