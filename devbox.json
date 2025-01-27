@@ -58,7 +58,10 @@
     "lefthook@latest",
     "taplo@latest",
     "kubeconform@latest",
-    "stern@latest"
+    "stern@latest",
+    "argo@latest",
+    "helmfile@latest",
+    "kubernetes-helm@latest"
   ],
   "shell": {
     "init_hook": [
